@@ -1,0 +1,72 @@
+.ListItem{
+    width: 225px;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    color: white;
+    margin-right: 5px;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    overflow: hidden;
+}
+.ListItem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ListItem:hover .video{
+    height: 140px;
+    width: 30%;
+    object-fit: contain;
+    top: -50;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+
+.ListItem:hover{
+    height: 300px;
+    width: 325px;
+    position: absolute;
+    top: -150px;
+    box-shadow: -3px 46px 31px -6px rgba(123,113,113,0.49);
+    -webkit-box-shadow: -3px 46px 31px -6px rgba(123,113,113,0.49);
+    -moz-box-shadow: -3px 46px 31px -6px rgba(123,113,113,0.49);
+    z-index: 999;
+}
+.ListItem:hover img{
+    height: 140px;
+}
+
+.movie-info{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.icons{
+    display: flex;
+    margin-left: 0;
+    margin-bottom: 10px;
+
+}
+.movie-info  .icon{
+    font-size: 16px;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.themeinfo{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    font-weight: 16px;
+   color: gray;
+   margin-bottom: 10px;
+}
+.ageRating{
+    border: 1px solid gray;
+    margin: 0 10px;
+    padding: 1px 3px;
+}

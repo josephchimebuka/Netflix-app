@@ -1,0 +1,18 @@
+.Watch{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.back{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+}
+.Watch .react-player{
+    width: !important 100%;
+}

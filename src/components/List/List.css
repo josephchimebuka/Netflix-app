@@ -1,0 +1,42 @@
+.list{
+ width: 100%;
+ margin-top: 10px;
+}
+.wrapper{
+    position: relative;
+
+}
+.listHeader{
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 50px;
+  
+}
+.wrapper .container{
+     margin: 20px 0;
+    display: flex;
+    margin-left: 50px;
+    width: max-content;
+    transform: translateX(0px);
+    transition: 1s ease;
+    
+}
+
+ .wrapper .arrowbtn{ 
+    z-index: 99;
+    position: absolute;
+    background-color: rgb(0,0,0,0.5);
+    height: 100%;
+    width: 50px;
+    cursor: pointer;
+    font-size: 32px;
+    top: 0;
+  
+}
+.arrowbtn.left{
+    left: 0;
+}
+.arrowbtn.right{
+   right: 0;
+
+}

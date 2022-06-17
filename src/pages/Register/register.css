@@ -1,0 +1,73 @@
+.Register{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-image: linear-gradient( to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%), url('http://authors.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg');
+}
+.top .wrapper{
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    justify-content: space-between
+}
+.wrapper .image{
+    height: 100px;
+}
+.wrapper .loginbtn{
+    padding: 5px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.container h1{
+   font-size: 50px;
+   margin-bottom: 20px;
+}
+.container h2{
+    margin-bottom: 20px;
+}
+.container p{
+    font-size: 22px;
+    font-weight: 400;
+}
+.Register .input{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.Register input{
+    display: flex;
+  
+}
+.Register input{
+    flex: 9;
+    padding: 0 10px;
+    
+}
+.Register .submit{
+    flex: 3;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}

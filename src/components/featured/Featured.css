@@ -1,0 +1,85 @@
+.featured{
+    height: 90vh;
+    position: relative;
+}
+.category{
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    font-size: 30px;
+    font-weight: 500;
+    align-items: center;
+}
+.category span{
+    font-weight: 500;
+    font-size: 30px;
+}
+.featured .category select{
+    background-color: var(--main--color);
+    color: white;
+    display: flex;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+
+
+.featured img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.info .movieImag{
+    width: 35%;
+    height: 35%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    padding: 0 50px;
+    gap: 20px;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+}
+.moviedesc{
+    width: 40%;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    gap: 10px;
+  
+
+}
+.play{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: var(--main--color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.b-info{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
